@@ -2,16 +2,14 @@
 
 ## Naming
 
-Slice names should be singular if possible.
-i.e. `TextSlice` and `ImageSlice`.
-
-This goes for set slices too. So for a blog we’d create a
-`PostSetSlice`, for event listings `EventSetSlice`.
+Slices should be named to be as meaningful as possible for users. Imagine a user clicking
+the "Add a slice" selector — the name that appears there should describe exactly what sort
+of content the slice will add to the page.
 
 We have some preferred names for common slices:
 
 * `TextSlice`
-* `ImageSlice`
+* `ImagesSlice`
 * `TitleSlice`
 * `DividerSlice`
 
